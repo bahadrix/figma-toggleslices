@@ -13,10 +13,8 @@ function traverse(node) {
         node.visible = visiblityTarget;
     }
     if ("children" in node) {
-        if (node.type !== "INSTANCE") {
-            for (const child of node.children) {
-                traverse(child);
-            }
+        for (const child of node.children) {
+            traverse(child);
         }
     }
 }
