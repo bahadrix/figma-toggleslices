@@ -1,5 +1,3 @@
-// This plugin creates 5 rectangles on the screen.
-const numberOfRectangles = 5;
 let count = 0;
 let firstSlice = null;
 let visiblityTarget = false;
